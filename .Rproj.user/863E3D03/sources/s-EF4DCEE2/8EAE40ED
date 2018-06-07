@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521756592924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8EAE40ED",
+    "lastKnownWriteTime" : 1521939755,
+    "last_content_update" : 1521939755227,
+    "path" : "D:/Bull Market Brokers/GitHub/Statistical Rethinking/scripts/basePackages.R",
+    "project_path" : "scripts/basePackages.R",
+    "properties" : {
+        "cursorPosition" : "3,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
