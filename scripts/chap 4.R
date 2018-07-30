@@ -30,6 +30,9 @@ plot(p_grid, posterior)
 
 # A Gaussian model of heigth ####
 data("Howell1")
+
+ggplot(data = Howell1 %>% filter(age>=18), aes(x=age, y=height)) + geom_jitter(aes(color=weight)) + facet_wrap(~male) + stat_smooth(method = "auto")
+
 d <- Howell1
 d2 <- d %>% filter(age >= 18)
 dens(d2$height)
