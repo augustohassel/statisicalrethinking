@@ -5,8 +5,9 @@ if("rethinking" %in% rownames(installed.packages()) == FALSE) {devtools::install
 if("tidyverse" %in% rownames(installed.packages()) == FALSE) {install.packages("tidyverse")}
 if("ggrepel" %in% rownames(installed.packages()) == FALSE) {install.packages("ggrepel")}
 if("splines" %in% rownames(installed.packages()) == FALSE) {install.packages("splines")}
+if("rstan" %in% rownames(installed.packages()) == FALSE) {install.packages("rstan")}
 
-paquetes <- list("coda", "mvtnorm", "devtools", "rethinking", "tidyverse", "ggrepel", "splines")
+paquetes <- list("coda", "mvtnorm", "devtools", "rethinking", "tidyverse", "ggrepel", "splines", "rstan")
 
 
 lapply(paquetes, FUN = library, character.only=T)
