@@ -27,7 +27,7 @@ ggplot() +
   labs(x="week", y="island")
 
 ggplot() +
-  geom_histogram(aes(position))
+  geom_histogram(aes(position[1:50]))
 
 
 
