@@ -5,7 +5,7 @@ if("rethinking" %in% rownames(installed.packages()) == FALSE) {devtools::install
 if("tidyverse" %in% rownames(installed.packages()) == FALSE) {install.packages("tidyverse")}
 if("ggrepel" %in% rownames(installed.packages()) == FALSE) {install.packages("ggrepel")}
 if("splines" %in% rownames(installed.packages()) == FALSE) {install.packages("splines")}
-if("rstan" %in% rownames(installed.packages()) == FALSE) {install.packages("rstan")}
+if("rstan" %in% rownames(installed.packages()) == FALSE) {install.packages("rstan", dependencies = T)}
 
 paquetes <- list("coda", "mvtnorm", "devtools", "rethinking", "tidyverse", "ggrepel", "splines", "rstan")
 
