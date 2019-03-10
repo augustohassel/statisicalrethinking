@@ -18,5 +18,5 @@ rm(list = c("paquetes"))
 
 # Sys.setenv(USE_CXX14 = 1)
 
-# rstan_options(auto_write = T)
-# options(mc.cores = parallel::detectCores())
+rstan_options(auto_write = T)
+options(mc.cores = parallel::detectCores())
